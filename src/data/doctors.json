@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Sarah Ahmed",
+    "qualification": "MBBS, FCPS (Cardiology)",
+    "image": "https://i.pravatar.cc/150?img=1"
+  },
+  {
+    "id": 2,
+    "name": "Dr. Imran Qureshi",
+    "qualification": "MBBS, MD (Medicine)",
+    "image": "https://i.pravatar.cc/150?img=2"
+  },
+  {
+    "id": 3,
+    "name": "Dr. Ayesha Khan",
+    "qualification": "MBBS, FCPS (Gynecology)",
+    "image": "https://i.pravatar.cc/150?img=3"
+  },
+  {
+    "id": 4,
+    "name": "Dr. Bilal Siddiqui",
+    "qualification": "MBBS, MS (Orthopedics)",
+    "image": "https://i.pravatar.cc/150?img=4"
+  },
+  {
+    "id": 5,
+    "name": "Dr. Nazia Malik",
+    "qualification": "MBBS, FCPS (Pediatrics)",
+    "image": "https://i.pravatar.cc/150?img=5"
+  },
+  {
+    "id": 6,
+    "name": "Dr. Usman Tariq",
+    "qualification": "MBBS, FCPS (Neurology)",
+    "image": "https://i.pravatar.cc/150?img=6"
+  }
+]
