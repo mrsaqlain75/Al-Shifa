@@ -1,10 +1,10 @@
 import React from 'react';
 import './CEOSection.css';
-import ceoImage from './assets/logo.png'; // Replace with your actual image path
+import ceoImage from './assets/Shuja.jpg'; // Replace with your actual image path
 
 const CEOSection = () => {
   return (
-    <section className="ceo-section">
+    <section className="ceo-section" id="ceo-section">
       <div className="ceo-image">
         <img src={ceoImage} alt="CEO" />
       </div>
@@ -17,7 +17,7 @@ const CEOSection = () => {
           Thank you for choosing us as your healthcare partner. We pledge to continue evolving and innovating in order to meet your needs and exceed your expectations.
         </p>
         <p>
-          — Dr. Zeeshan Khalid, CEO
+          — Dr. Shuja, CEO
         </p>
       </div>
     </section>

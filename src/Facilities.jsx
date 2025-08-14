@@ -15,7 +15,7 @@ const facilities = [
 
 const Facilities = () => {
   return (
-    <section className="facilities">
+    <section className="facilities" id="facilities">
       <h2>What We Offer?</h2>
       <div className="facility-grid">
         {facilities.map((item, idx) => (

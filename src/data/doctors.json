@@ -1,38 +1,51 @@
 [
   {
     "id": 1,
-    "name": "Dr. Sarah Ahmed",
-    "qualification": "MBBS, FCPS (Cardiology)",
-    "image": "https://i.pravatar.cc/150?img=1"
+    "name": "Dr. Fahim",
+    "qualification": "Dental Surgeon",
+    "image": "public/data/Fahim.jpg"
   },
   {
     "id": 2,
-    "name": "Dr. Imran Qureshi",
-    "qualification": "MBBS, MD (Medicine)",
-    "image": "https://i.pravatar.cc/150?img=2"
+    "name": "Dr. Fida",
+    "qualification": "General Physician",
+    "image": "public/data/Fida.jpg"
   },
   {
     "id": 3,
-    "name": "Dr. Ayesha Khan",
-    "qualification": "MBBS, FCPS (Gynecology)",
-    "image": "https://i.pravatar.cc/150?img=3"
+    "name": "Dr. Mahmood Alam",
+    "qualification": "ENT Specialist",
+    "image": "public/data/Mahmood.jpg"
   },
   {
     "id": 4,
-    "name": "Dr. Bilal Siddiqui",
-    "qualification": "MBBS, MS (Orthopedics)",
-    "image": "https://i.pravatar.cc/150?img=4"
+    "name": "Dr. Naseem Ahmad Khan",
+    "qualification": "Phsychiatrist",
+    "image": "public/data/Naseem.jpg"
   },
   {
     "id": 5,
-    "name": "Dr. Nazia Malik",
-    "qualification": "MBBS, FCPS (Pediatrics)",
-    "image": "https://i.pravatar.cc/150?img=5"
+    "name": "Dr. Rashid",
+    "qualification": "Surgical Specialist",
+    "image": "public/data/Rashid.jpg"
   },
   {
     "id": 6,
-    "name": "Dr. Usman Tariq",
-    "qualification": "MBBS, FCPS (Neurology)",
-    "image": "https://i.pravatar.cc/150?img=6"
+    "name": "Dr. Shah Hussain",
+    "qualification": "Medical Specialist",
+    "image": "public/data/Shah Hussain.jpg"
+  }
+  ,
+  {
+    "id": 7,
+    "name": "Dr. Tabrez Wali Shah",
+    "qualification": "Neurologist",
+    "image": "public/data/Tabrez.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Dr. Waseem",
+    "qualification": "Gasttoenterologist",
+    "image": "public/data/Waseem.jpg"
   }
 ]

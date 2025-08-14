@@ -12,7 +12,7 @@ const DoctorCarousel = () => {
   };
 
   return (
-    <section className="doctor-carousel">
+    <section className="doctor-carousel" id="doctors">
       <h2>Meet Our Specialists</h2>
       <div className="carousel-wrapper">
         <button className="scroll-btn left" onClick={() => scroll('left')}>&#10094;</button>

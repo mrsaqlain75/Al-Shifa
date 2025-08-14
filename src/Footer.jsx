@@ -25,7 +25,7 @@ const Footer = () => {
           <h4>Contact</h4>
           <p><FaMapMarkerAlt /> PIA Chowk, Chitral Town</p>
           <p><FaPhoneAlt /> +92 307 5144507</p>
-          <p><FaEnvelope /> info@shifahospital.com</p>
+          <p><FaEnvelope /> info@shifadiagnostic.com</p>
         </div>
 
         <div className="footer-col">
@@ -39,7 +39,7 @@ const Footer = () => {
       </div>
 
       <div className="footer-bottom">
-        &copy; {new Date().getFullYear()} Shifa Hospital. All rights reserved.
+        &copy; {new Date().getFullYear()} Shifa Diagnostic & General Hospital Chitral. All rights reserved.
       </div>
     </footer>
   );

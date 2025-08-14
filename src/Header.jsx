@@ -11,7 +11,7 @@ const Header = () => {
   };
 
   return (
-    <header className="header">
+    <header className="header" id="home">
       <div className="container">
         {/* Logo */}
         <div className="logo">
@@ -27,14 +27,22 @@ const Header = () => {
 
         {/* Navigation */}
         <nav className={`nav ${menuOpen ? 'show' : ''}`}>
-          <a href="#features">Services</a>
-          <a href="#pricing">Specialists</a>
-          <a href="#support">Our Message</a>
+          <a href="#facilities" onClick={(e) => scrollToSection(e, 'facilities')}>Services</a>
+          <a href="#doctors" onClick={(e) => scrollToSection(e, 'doctors')}>Specialists</a>
+          <a href="#ceo-section" onClick={(e) => scrollToSection(e, 'ceo-section')}>Our Message</a>
           <button className="btn">WhatsApp</button>
         </nav>
       </div>
     </header>
   );
+};
+
+const scrollToSection = (e, id) => {
+  e.preventDefault();
+  const section = document.getElementById(id);
+  if (section) {
+    section.scrollIntoView({ behavior: 'smooth' });
+  }
 };
 
 export default Header;
