@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import './Hero.css';
 
-import img1 from './assets/banner.png';
 import img2 from './assets/banner1.png';
+import img3 from './assets/banner3.jpg';
 
-const images = [img1, img2];
+const images = [img2,img3];
 
 const Hero = () => {
   const [index, setIndex] = useState(0);

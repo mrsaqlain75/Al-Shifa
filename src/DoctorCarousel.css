@@ -19,12 +19,18 @@
 
 .carousel-container {
   display: flex;
-  flex-direction: row;           /* ✅ Ensures horizontal layout */
-  overflow-x: auto;              /* ✅ Enables horizontal scroll */
+  flex-direction: row;
+  overflow-x: auto;
   scroll-behavior: smooth;
   gap: 1.5rem;
   padding: 1rem;
   margin: 0 3rem;
+
+  /* Hide scrollbar */
+  scrollbar-width: none; /* Firefox */
+}
+.carousel-container::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
 }
 
 

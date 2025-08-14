@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="footer-container">
 
         <div className="footer-col">
-          <h3>Shifa Hospital</h3>
+          <h3>Shifa Diagnostic & General Hospital Chitral</h3>
           <p>Providing quality healthcare with compassion and care since 2016.</p>
         </div>
 
@@ -31,7 +31,7 @@ const Footer = () => {
         <div className="footer-col">
           <h4>Follow Us</h4>
           <div className="social-icons">
-            <a href="#"><FaFacebookF /></a>
+            <a href="https://www.facebook.com/profile.php?id=100063922332309"><FaFacebookF /></a>
             <a href="#"><FaTwitter /></a>
             <a href="#"><FaInstagram /></a>
           </div>
